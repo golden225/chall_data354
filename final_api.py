@@ -52,7 +52,7 @@ if st.button("Vérifier le lien"):
         data = prediction_lien(upload)
 
         if data == {"message": "Ce lien est un phishing."}:
-            message = "Ce lien est un phishing 😰"
+            message = "Ce lien est un phishing 🚨 "
         elif data ==  {"message": "Ce lien est légitime, ne vous inquiétez pas."} :
             message =  "Ce lien est légitime, ne vous inquiétez pas 😎"
 
