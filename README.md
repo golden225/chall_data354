@@ -1,35 +1,28 @@
 # chall_data354
 
-## Description api
+## Description du repo
 
-Une API de détection de phishing basée sur un modèle de régression logistique.
+Il s'agit d'une api ( application programming interface  )  et une application web  de détection de phishing basée sur un modèle de régression logistique.
 
-Il est stocké dans le repectoire Utils/API
-Il contient un fichier api.py qui l'api
+L'api est stockée dans le répertoire Utils/API. 
 
-requirements.txt pour les bibliothèques de l'api
+L'application web est stockée dans le répertoire Utils/APP.
 
-Regression_logistic_model.pkl qui est le modèle 
+le fichier Regression_logistic_model.pkl  est le modèle dumper.
 
-vectorizer.pkl qui est le vectorizer
+le fichier vectorizer.pkl  est le vectorizer dumper.
 
-## Description application web 
 
-Une application web de détection de phishing basée sur un modèle de régression logistique.
-Il est stocké dans le repectoire Utils/APP
+## Description du repertoire data
 
-## Description du repectoire data
+- le fichier fishing-submission_ehouman.csv (  données de prédiction ).
 
-Il contient le fichier fishing-submission_ehouman.csv qui qui sont les données de prediction
+- le fichier fishing-train (1).csv ( données d'entraînement  et de test ).
 
-Il contient le fichier fishing-train (1).csv qui sont les données d'entrainement  et de test 
+## Description du repertoire model 
 
-## Description du repectoire model 
+- le fichier Challenge_data354_Ehouman_phishing_detection_final.ipynb qui est le notebook 
 
-Il contient Challenge_data354_Ehouman_phishing_detection_final.ipynb qui est le notebook 
-
-## Fonctionnalités
-- Prédiction de phishing ( ou pas ) pour les liens fournis.
 
 
 ## Configuration Requise
