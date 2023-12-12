@@ -37,24 +37,25 @@ le fichier vectorizer.pkl  est le vectorizer dumper.
    cd chall_data354
 
 2. Pour utiliser l'api 
+   ```bash
+   pip install -r requirements.txt
+   uvicorn api:app --reload
 
-   - pip install -r requirements.txt
 
-   - lancer avec  : uvicorn api:app --reload
+- accéder en local : http://127.0.0.1:8000/
 
-   - accéder en local : http://127.0.0.1:8000/
-
-   - la route /docs pour l'interface de documentation standard 
-   - la route /predict pour les prédictions de l'api ( testable dans /docs )
+- la route /docs pour l'interface de documentation standard 
+- la route /predict pour les prédictions de l'api ( testable dans /docs )
 
 
 3. Pour l'application web 
-   
-   - pip install -r requirements.txt
 
-   - lancer avec streamlit run app.py
+   ```bash
+   pip install -r requirements.txt
+   streamlit run app.py
 
-   - accéder en local : http://localhost:8501/
 
-   - accéder en reseau : http://172.20.10.4:8501
+- accéder en local : http://localhost:8501/
+
+- accéder en reseau : http://172.20.10.4:8501
 
